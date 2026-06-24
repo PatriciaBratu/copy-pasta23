@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.background {
+  background-image: url('./assets/Group-mare.png');
+  background-size: cover;
+  position: absolute;
+  /* Asigură acoperirea completă */
+  background-repeat: no-repeat;
+  /* Previne repetarea */
+  background-position: center;
+  /* Poziționează imaginea central */
+  width: 2107.05px;
+  /* Lățimea ocupă toată fereastra */
+  height: 1087.62px;
+  top: 98px;
+  left: 10px;
+  /* Înălțimea ocupă toată fereastra */
+}
+
+.foreground-image {
+  position: absolute;
+  /* Permite poziționarea exactă peste fundal */
+  top: 50%;
+  /* Poziționează la mijloc pe verticală */
+  left: 50%;
+  /* Poziționează la mijloc pe orizontală */
+  transform: translate(-50%, -50%);
+  /* Ajustează centrul exact */
+  width: 558.73px;
+  /* Dimensiunea imaginii */
+  height: 304px;
+}
